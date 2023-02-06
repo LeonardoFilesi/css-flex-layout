@@ -1,0 +1,17 @@
+/*/RESET*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+    height: 80px;
+    background-color: yellow;
+}
+
+nav.menu {
+    background-color: aqua ;
+}
