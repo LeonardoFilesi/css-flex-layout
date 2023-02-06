@@ -1,9 +1,13 @@
 /*/RESET*/
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/*UTILITIES*/
+.flex {
+    display: flex;
 }
 
 /*HEADER*/
@@ -12,18 +16,22 @@ header {
     background-color: rgb(187, 108, 55);
 }
 
-nav.menu {
-    background-color: rgb(44, 102, 179) ;
-    width: 25%;
-}
-
 /*MAIN*/
 main.flex {
     gap: 10px;
 }
 
-.flex {
-    display: flex;
+/*navigation bar*/
+nav.menu {
+    background-color: rgb(44, 102, 179) ;
+    width: 25%;
+}
+
+nav.menu li {
+    background-color: rgb(138, 10, 10);
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
 }
 
 .main-section {
@@ -32,9 +40,28 @@ main.flex {
     background-color: rgb(241, 207, 154);
 }
 
+.wrapper {
+    padding: 10px;
+    border: 2px white dashed;
+}
+
+.wrapper article {
+    background-color: rgb(102, 134, 163);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+/*BANNER*/
 aside {
     display: block;
     background-color: rgb(45, 164, 168);
     width: 25%;
 }
 
+/*FOOTER*/
+footer {
+    background-color: rgb(23, 124, 91);
+    height: 100px;
+}
