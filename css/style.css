@@ -1,28 +1,28 @@
-/*/RESET*/
+/*-------------------------------RESET--------------------------------------*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/*UTILITIES*/
+/*------------------------------UTILITIES----------------------------------*/
 .flex {
     display: flex;
 }
 
-/*HEADER*/
+/*--------------------------------HEADER----------------------------------*/
 header {
     height: 80px;
     background-color: rgb(221, 109, 34);
 }
 
-/*MAIN*/
+/*----------------------------------MAIN-------------------------------------*/
 main.flex {
     gap: 10px;
     align-items: flex-start;
 }
 
-/*navigation bar*/
+/*----------------------------navigation bar----------------------------------*/
 nav.menu {
     background-color: rgb(27, 66, 117) ;
     width: 25%;
@@ -57,7 +57,7 @@ nav.menu li {
 
 
 
-/*BANNER*/
+/*----------------------------------BANNER-------------------------------*/
 aside {
     display: block;
     background-color: rgb(45, 164, 168);
@@ -65,7 +65,7 @@ aside {
     min-height: 300px;
 }
 
-/*FOOTER*/
+/*---------------------------------FOOTER--------------------------*/
 footer {
     background-color: rgb(23, 124, 91);
     height: 100px;
